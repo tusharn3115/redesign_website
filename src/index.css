@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+* {
+    font-family: "Jost", serif;
+}
+
+.poopin {
+    font-family: "Poppins", serif;
+}
