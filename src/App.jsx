@@ -4,6 +4,8 @@ import LandingPage from './components/LandingPage'
 import Marquee from './components/Marquee'
 import OurApproach from './components/OurApproach'
 import Eyes from './components/Eyes'
+import Feature from './components/Feature'
+import Cards from './components/Cards'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Marquee />
       <OurApproach />
       <Eyes />
+      <Feature />
+      <Cards />
     </div>
   )
 }
