@@ -4,8 +4,8 @@ import Button from './Button'
 
 const Feature = () => {
     return (
-        <div className='w-full py-10 bg-[#F1F1F1]'>
-            <div className='w-full px-12 pt-20 border-b-2 border-[#D2D2D2] pb-10'>
+        <div className='pt-20 h-[126vh] bg-[#F1F1F1]'>
+            <div className='px-12 border-b-2 border-[#D2D2D2] pb-10'>
                 <h1 className='text-6xl !font-["Neue_Montreal"]'>Featured projects</h1>
             </div>
 
@@ -22,11 +22,11 @@ const Feature = () => {
                             ))}
                         </h1>
 
-                        <div className='card w-full h-full rounded-xl overflow-hidden'>
-                            <img className='w-full h-full bg-cover' src="../../public/feature1.png" alt="featureImg" />
+                        <div className='card w-full  rounded-xl overflow-hidden'>
+                            <img className='w-full  bg-cover' src="../../public/feature1.png" alt="featureImg" />
                         </div>
 
-                        <div className='buttons py-5 flex items-center gap-2'>
+                        <div className='buttons py-2 flex items-center gap-2'>
                            <Button title={"BRANDED TEMPLATE"} />
                            <Button title={"SALES DECK"} />
                            <Button title={"SOCIAL MEDIA TEMPLATE"} />
@@ -46,11 +46,11 @@ const Feature = () => {
                         </h1>
 
 
-                        <div className='card w-full h-full rounded-xl overflow-hidden '>
-                            <img className='w-full h-full bg-cover' src="../../public/feature2.png" alt="featureImg" />
+                        <div className='card w-full rounded-xl overflow-hidden '>
+                            <img className='w-full bg-cover' src="../../public/feature2.png" alt="featureImg" />
                         </div>
 
-                        <div className='buttons py-5'>
+                        <div className='buttons py-2'>
                            <Button title={"PITCH DECK"} />
                         </div>
                     </div>
